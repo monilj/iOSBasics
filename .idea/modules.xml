@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IosTestin.iml" filepath="$PROJECT_DIR$/.idea/modules/IosTestin.iml" group="IosTestin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IosTestin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IosTestin_main.iml" group="IosTestin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IosTestin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IosTestin_test.iml" group="IosTestin" />
+    </modules>
+  </component>
+</project>

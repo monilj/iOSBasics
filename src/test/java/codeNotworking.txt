@@ -1,0 +1,6 @@
+//        RemoteWebElement parent = driver.findElementByName("Search Bars");
+//        String parentt = parent.getId();
+//        HashMap<String,String> hs=  new HashMap<String ,String>();
+//        hs.put("element",parentt);
+//        hs.put("predicateString","label=='Search Bars'");
+//        driver.executeScript("mobile:scroll",hs);
