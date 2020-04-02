@@ -1,21 +1,16 @@
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
+import util.DesiredCap;
 
-import java.awt.*;
 import java.util.HashMap;
 
 public class IOSFirstTest extends DesiredCap {
 
     public static void main(String[] args) throws InterruptedException {
-        //IOSDriver driver = DesiredCap.capabilities();
+        //IOSDriver driver = util.DesiredCap.capabilities();
         IOSDriver<IOSElement> driver = capabilities();
 //
 //        driver.findElementByAccessibilityId("Alert Views").click();
@@ -49,7 +44,6 @@ public class IOSFirstTest extends DesiredCap {
         jsc.executeScript("mobile:scroll", scrollableObject);
         driver.findElementByAccessibilityId("Steppers").click();
         Thread.sleep(1000);
-        driver.zoom
         for(int i=0;i<2;i++) {
             driver.findElementByName("Increment").click();
         }
